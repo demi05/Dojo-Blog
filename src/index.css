@@ -51,3 +51,92 @@
   color: #f1356d;
   margin-bottom: 0.5em;
 }
+.blog-preview a {
+  text-decoration: none;
+}
+
+/*blog details*/
+.blog-details h2 {
+  font-size: 1.3rem;
+  color: #f1356d;
+  margin-bottom: 0.7em;
+}
+.blog-details div {
+  margin: 1.3em 0;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+/*create new blog form*/
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 1.3rem;
+  color: #f1356d;
+  margin-bottom: 0.2em;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 0.4em 0.7em;
+  margin: 0.7em 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: none;
+  padding: 0.7em;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/*404 page*/
+.not-found {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6em;
+}
+.not-found h2 {
+  font-size: 1.9rem;
+  color: #f1356d;
+  margin-bottom: 0.7em;
+}
+.not-found p {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+.not-found a {
+  color: #f1356d;
+  border: 1px solid #ddd;
+  padding: 0.7em;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 85%;
+  }
+  .content {
+    width: 85%;
+  }
+}
