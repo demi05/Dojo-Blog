@@ -1,7 +1,7 @@
 import BlogList from "./BlogList";
 import useFetch from "./UseFetch";
 
-const Home_ = () => {
+const Homee = () => {
   const {
     data: blogs,
     isLoading,
@@ -17,4 +17,4 @@ const Home_ = () => {
   );
 };
 
-export default Home_;
+export default Homee;
